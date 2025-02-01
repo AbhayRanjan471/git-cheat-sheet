@@ -44,10 +44,12 @@ git push origin --delete <branch-name>             # Delete remote branch
 ## History & Differences
 ```bash
 git log                                            # View commit history
+git log --merge                                    # produce list of commits causing the conflict
 git log --oneline                                  # Compact commit history
 git diff                                           # Show unstaged changes
 git diff --staged                                  # Show staged changes
 git diff <commit1> <commit2>                       # Compare two commits
+git diff <branch_name>                             # compares changes in ur current branch against the specified branch
 ```
 
 
